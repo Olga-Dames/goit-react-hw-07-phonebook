@@ -25,7 +25,7 @@ export default function App() {
       <ContactForm />
       <Title>Contacts</Title>
       <Filter />
-      {isLoading && !deleteContact && <Loader/>}
+      {isLoading && <Loader/>}
       {error && <p>{error}</p>}
       {contacts.length > 0 ? (
         <ContactList />
