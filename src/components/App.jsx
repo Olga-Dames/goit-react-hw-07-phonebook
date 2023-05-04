@@ -7,7 +7,6 @@ import { Container, Heading, Title, Empty } from './App.styled';
 import { useSelector, useDispatch } from 'react-redux';
 import { selectContacts, selectError, selectIsLoading } from 'redux/selectors';
 import { fetchContacts } from 'redux/operations';
-import { deleteContact } from 'redux/operations';
 
 export default function App() {
   const dispatch = useDispatch();
